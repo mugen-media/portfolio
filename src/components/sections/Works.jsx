@@ -7,6 +7,7 @@ import happy from '../../assets/Happiness.png'
 import travel from '../../assets/travpart.png'
 import jewel from '../../assets/jewel.png'
 import omega from '../../assets/Omega.png'
+import shoe from '../../assets/shoe.png'
 
 const Works = () => {
   const projects = [
@@ -38,7 +39,13 @@ const Works = () => {
       title: "Project Omega",
       category: "Game Dev",
       image: omega,
-      href: "https://drive.google.com/file/d/1-0z2vUgGyvNdriJm6r6n2JzDQBDGfTvd/view?usp=sharing"
+      href: "https://drive.google.com/file/d/1-0z2vUgGyvNdriJm6r6n2JzDQBDGfTvd/view?usp=sharing "
+    },
+    {
+      title: "Sneaker Store",
+      category: "Landing Page",
+      image: shoe,
+      href: "https://sneaker-store-prototype.vercel.app/"
     }
   ];
 
