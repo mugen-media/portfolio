@@ -18,13 +18,20 @@ const Contact = () => {
                   <p className="text-gray-400">mugenmediaindia@gmail.com</p>
                 </div>
               </div>
-              <div className="flex items-center gap-4">
-                <div className="bg-gray-800 p-4 rounded-lg text-red-500"><Globe size={24} /></div>
-                <div>
-                  <h4 className="font-bold">Socials</h4>
-                  <p className="text-gray-400">@mugenmedia</p>
-                </div>
-              </div>
+            <div className="flex items-center gap-4">
+  <div className="bg-gray-800 p-4 rounded-lg text-red-500"><Globe size={24} /></div>
+  <div>
+    <h4 className="font-bold">Socials</h4>
+    <a 
+      href="https://www.instagram.com/mugenmedia.in?igsh=MTdsb3M1ODgxOGQ1dg==" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="text-gray-400 hover:text-red-500 transition-colors"
+    >
+      @mugenmedia.in
+    </a>
+  </div>
+</div>
             </div>
           </div>
 
